@@ -5,7 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.tubes_ppm"
+<<<<<<< HEAD
     compileSdk = 34
+=======
+    compileSdk = 33
+>>>>>>> 5793b9cc6a36ce57c5719565d26d6d5423d8b647
 
     defaultConfig {
         applicationId = "com.example.tubes_ppm"
