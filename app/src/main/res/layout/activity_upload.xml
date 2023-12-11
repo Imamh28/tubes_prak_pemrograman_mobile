@@ -14,22 +14,69 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
         android:layout_gravity="center_horizontal"
         android:padding="20dp">
         
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/uploadName"
+            android:id="@+id/uploadOwnerName"
             android:layout_marginTop="20dp"
-            android:hint="Masukkan Nama"
+            android:hint="Masukkan Nama Pemilik"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
             android:textColor="@color/blue"/>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadVehicleBrand"
+            android:layout_marginTop="20dp"
+            android:hint="Masukkan Nama Brand"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="15dp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadVehicleRTO"
+            android:layout_marginTop="20dp"
+            android:hint="Masukkan Kendaraan RTO"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="15dp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadVehicleNumber"
+            android:layout_marginTop="20dp"
+            android:hint="Masukkan Nomor Kendaraan"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="15dp"
+            android:textColor="@color/blue"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/saveButton"
+            android:text="Simpan"
+            android:backgroundTint="@color/blue"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cornerRadius = "20dp"/>
 
     </LinearLayout>
 
