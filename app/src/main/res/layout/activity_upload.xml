@@ -17,55 +17,60 @@
         android:layout_marginTop="250dp"
         android:layout_gravity="center_horizontal"
         android:padding="20dp">
-        
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/uploadOwnerName"
-            android:layout_marginTop="20dp"
-            android:hint="Masukkan Nama Pemilik"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:gravity="start|center_vertical"
-            android:padding="15dp"
-            android:textColor="@color/blue"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/uploadVehicleBrand"
+            android:id="@+id/uploadNamaTugas"
             android:layout_marginTop="20dp"
-            android:hint="Masukkan Nama Brand"
+            android:hint="Masukkan Nama Tugas"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"/>
+            android:textColor="@color/blue"
+            android:background="@drawable/blue_border"/>
+
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/uploadVehicleRTO"
+            android:id="@+id/uploadWaktuDeadline"
             android:layout_marginTop="20dp"
-            android:hint="Masukkan Kendaraan RTO"
+            android:hint="Masukkan Waktu Deadline"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"/>
+            android:textColor="@color/blue"
+            android:background="@drawable/blue_border"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/uploadVehicleNumber"
+            android:id="@+id/uploadMataKuliah"
             android:layout_marginTop="20dp"
-            android:hint="Masukkan Nomor Kendaraan"
+            android:hint="Masukkan Mata Kuliah"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"/>
-        
+            android:textColor="@color/blue"
+            android:background="@drawable/blue_border"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadDeskripsiSingkat"
+            android:layout_marginTop="20dp"
+            android:hint="Masukkan Deskripsi Singkat"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="15dp"
+            android:textColor="@color/blue"
+            android:background="@drawable/blue_border"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="60dp"
