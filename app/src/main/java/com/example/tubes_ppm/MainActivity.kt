@@ -24,5 +24,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        binding.mainRead.setOnClickListener {
+            val intent = Intent(this@MainActivity, ReadActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
