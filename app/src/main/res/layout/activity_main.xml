@@ -28,6 +28,31 @@
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Update"
+                android:id="@+id/mainUpdate"
+                android:textSize="18sp"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                />
+
+        </LinearLayout>
+
+
+
     </LinearLayout>
+
+
 
 </LinearLayout>
