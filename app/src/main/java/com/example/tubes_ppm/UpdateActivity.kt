@@ -18,12 +18,12 @@ class UpdateActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.updateButton.setOnClickListener {
-            val updateNamaTugas = binding.updateNamaTugas.text.toString()
-            val updateWaktuDeadline = binding.updateWaktuDeadline.text.toString()
-            val updateMataKuliah = binding.updateMataKuliah.text.toString()
-            val updateDeskripsiSingkat = binding.updateDeskripsiSingkat.text.toString()
+            val namaTugas = binding.updateNamaTugas.text.toString()
+            val waktuDeadline = binding.updateWaktuDeadline.text.toString()
+            val mataKuliah = binding.updateMataKuliah.text.toString()
+            val deskripsiSingkat = binding.updateDeskripsiSingkat.text.toString()
 
-            updateData(updateNamaTugas, updateWaktuDeadline, updateMataKuliah, updateDeskripsiSingkat)
+            updateData(namaTugas, waktuDeadline, mataKuliah, deskripsiSingkat)
         }
     }
 
