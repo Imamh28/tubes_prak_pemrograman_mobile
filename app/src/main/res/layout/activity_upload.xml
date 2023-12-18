@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_vertical"
-    android:backgroundTint="@color/blue"
+    android:backgroundTint="@color/black"
     tools:context=".UploadActivity">
 
     <LinearLayout
@@ -28,7 +28,6 @@
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"
             android:background="@drawable/blue_border"/>
 
 
@@ -42,7 +41,6 @@
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"
             android:background="@drawable/blue_border"/>
 
         <EditText
@@ -55,7 +53,6 @@
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"
             android:background="@drawable/blue_border"/>
 
         <EditText
@@ -68,7 +65,6 @@
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
             android:padding="15dp"
-            android:textColor="@color/blue"
             android:background="@drawable/blue_border"/>
 
         <Button

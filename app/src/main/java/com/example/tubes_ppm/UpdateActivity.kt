@@ -29,7 +29,7 @@ class UpdateActivity : AppCompatActivity() {
 
     private fun updateData(namaTugas: String, waktuDeadline:String, mataKuliah: String, deskripsiSingkat: String){
         databaseReference = FirebaseDatabase.getInstance().getReference("Informasi Tugas")
-        val tugasData = mapOf<String, String>("namaTugas" to namaTugas, "waktuDeadline" to waktuDeadline, "matakuliah" to mataKuliah, "deskripsiSingkat" to deskripsiSingkat)
+        val tugasData = mapOf<String, String>("namaTugas" to namaTugas, "waktuDeadline" to waktuDeadline, "mataKuliah" to mataKuliah, "deskripsiSingkat" to deskripsiSingkat)
         databaseReference.child(namaTugas).updateChildren(tugasData).addOnSuccessListener {
             binding.updateNamaTugas.text.clear()
             binding.updateWaktuDeadline.text.clear()
