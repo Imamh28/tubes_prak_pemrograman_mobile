@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107170414428",
+    "project_id": "tubes-ppm",
+    "storage_bucket": "tubes-ppm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107170414428:android:eb21d20f281db9c21a8b99",
+        "android_client_info": {
+          "package_name": "com.example.tubes_ppm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkEFPSBn-BT9V-pP8aqDPYk8qHwijjrJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
