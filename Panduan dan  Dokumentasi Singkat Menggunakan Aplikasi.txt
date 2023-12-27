@@ -1,0 +1,50 @@
+
+							Panduan Pengguna Aplikasi Mobile CRUD Daftar Tugas:
+
+1. Halaman Utama:
+
+Button CRUD Tugas:
+-Saat membuka aplikasi, Anda akan melihat tombol CRUD tugas sebagai fitur utama.
+-Tekan tombol tersebut untuk mengakses fungsionalitas Create, Read, Update, dan Delete.
+-Halaman Create (Membuat Tugas Baru):
+-Tekan Tombol 'Create':
+
+2. Pada halaman utama, pilih tombol 'Create' untuk membuat tugas baru.
+
+Isi Form Input:
+-Anda akan dibawa ke halaman baru dengan empat kolom input.
+-Isilah kolom-kolom tersebut dengan informasi yang diperlukan.
+-Simpan Tugas Baru:
+-Setelah mengisi formulir, tekan tombol "Simpan" untuk menyimpan tugas baru.
+
+3. Halaman Read (Membaca Daftar Tugas):
+
+Fitur Search:
+-Pada halaman Read, Anda akan melihat fitur pencarian.
+-Gunakan fitur ini untuk mencari tugas berdasarkan kata kunci atau judul.
+
+Lihat Detail Tugas:
+-Setelah melakukan pencarian, pilih tugas yang ingin dilihat detailnya.
+-Anda akan melihat informasi lengkap tentang tugas tersebut.
+
+4. Halaman Update (Mengubah Tugas):
+
+Pilih Tugas yang Akan Diubah:
+-Dari halaman Read, pilih tugas yang ingin diubah.
+-Tekan Tombol 'Update' atau Sejenisnya:
+-Anda akan dibawa ke halaman dengan formulir yang berisi informasi tugas yang sudah ada.
+-Modifikasi informasi yang diperlukan.
+
+Simpan Perubahan:
+-Tekan tombol "Update" atau untuk menyimpan perubahan pada tugas.
+
+5. Halaman Delete (Menghapus Tugas):
+
+Pilih Tugas yang Akan Dihapus:
+-Dari halaman Read, pilih tugas yang ingin dihapus.
+-Tekan Tombol 'Delete' atau Sejenisnya:
+-Konfirmasi untuk menghapus tugas.
+-Mungkin akan muncul pemberitahuan untuk memastikan keinginan Anda.
+
+Tugas Terhapus:
+Setelah konfirmasi, tugas akan dihapus dari daftar.
